@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Intro</title>
+    <style>
+      .first-box {
+        height: 200px;
+        width: 200px;
+        /* 1 rem= the font-size of the root element of the document, which is typically the <html> element.
+          By default, most browsers set the font-size of the root element (<html>) to 16px. */
+        background-color: yellow;
+        /*border: 1px solid black;*/
+        padding: 1rem;
+        /* same padding on all 4 sides */
+        /* padding: 1 rem 2 rem; first value(1 rem) for top and bottom, second for left and right */
+        /*margin: 10px;*/
+        box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+          rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+          rgba(240, 46, 170, 0.1) -20px 20px,
+          rgba(240, 46, 170, 0.05) -25px 25px;
+
+        /* https://getcssscan.com/css-box-shadow-examples */
+      }
+
+      .second-box {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border: 1px solid black;
+        padding: 1 rem 2 rem 3 rem 4 rem;
+        /* top right bottom left (clock) */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-box">
+      <p>This is the first box.</p>
+    </div>
+
+    <!-- <div class="second-box">
+      <p>This is the second box.</p>
+    </div> -->
+  </body>
+</html>
