@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin and Padding</title>
+  </head>
+
+  <style>
+    body {
+      /* margin: 0;
+      padding: 0; */
+      box-sizing: border-box;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+    }
+
+    .box {
+      height: 15rem;
+      width: 15rem;
+      margin: 1rem; /*margin= excluding itself*/
+      padding: 10px; /*including itself*/
+      border: 1px solid black;
+    }
+
+    .main-box {
+      display: flex;
+    }
+  </style>
+
+  <body>
+    <section class="main-box">
+      <div class="box" style="background-color: green"></div>
+      <!-- <div class="box" style="background-color: orange"></div> -->
+    </section>
+  </body>
+</html>

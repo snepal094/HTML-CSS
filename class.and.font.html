@@ -1,0 +1,74 @@
+<!-- rem= 16px -->
+
+<!-- width= 100vw -->
+<!-- height= 100vh -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class</title>
+  </head>
+
+  <!-- 
+     class ==> .
+     class is highly reusable
+
+     id ==> # 
+     id is used for specific entities
+-->
+
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      height: 10rem;
+      width: 10rem;
+    }
+
+    .blue-box {
+      background-color: blue;
+    }
+
+    .green-box {
+      background-color: green;
+    }
+
+    #first-text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+  </style>
+
+  <!-- 
+   p{
+   color: blue
+   }
+   this will make all text within a paragraph blue. p is not a class, hence . is not needed.
+  -->
+
+  <body>
+    <div class="box">
+      <p>Hello</p>
+    </div>
+
+    <div class="box blue-box"></div>
+
+    <div class="box green-box"></div>
+
+    <div class="green-box"></div>
+
+    <!-- can integrate multiple classes using space -->
+
+    <p id="first-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ab
+      atque rem perspiciatis magni amet culpa cumque illo quisquam quam.
+    </p>
+  </body>
+</html>
